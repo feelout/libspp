@@ -1,0 +1,311 @@
+In file included from Set.c:1:
+Set.h:10: error: expected specifier-qualifier-list before ‘rbtree’
+In file included from /usr/include/stdlib.h:33,
+                 from Set.c:2:
+/usr/lib/gcc/i686-linux-gnu/4.4.5/include/stddef.h: In function ‘getValue’:
+/usr/lib/gcc/i686-linux-gnu/4.4.5/include/stddef.h:211: error: storage class specified for parameter ‘size_t’
+/usr/lib/gcc/i686-linux-gnu/4.4.5/include/stddef.h:323: error: storage class specified for parameter ‘wchar_t’
+In file included from Set.c:2:
+/usr/include/stdlib.h:72: error: storage class specified for parameter ‘__WAIT_STATUS’
+/usr/include/stdlib.h:102: error: storage class specified for parameter ‘div_t’
+/usr/include/stdlib.h:110: error: storage class specified for parameter ‘ldiv_t’
+/usr/include/stdlib.h:118: error: expected declaration specifiers before ‘__extension__’
+/usr/include/stdlib.h:122: error: expected declaration specifiers before ‘lldiv_t’
+/usr/include/stdlib.h:140: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__ctype_get_mb_cur_max’
+/usr/include/stdlib.h:146: error: storage class specified for parameter ‘atof’
+/usr/include/stdlib.h:149: error: storage class specified for parameter ‘atoi’
+/usr/include/stdlib.h:152: error: storage class specified for parameter ‘atol’
+/usr/include/stdlib.h:158: error: expected declaration specifiers before ‘__extension__’
+/usr/include/stdlib.h:167: error: storage class specified for parameter ‘strtod’
+/usr/include/stdlib.h:174: error: storage class specified for parameter ‘strtof’
+/usr/include/stdlib.h:178: error: storage class specified for parameter ‘strtold’
+/usr/include/stdlib.h:186: error: storage class specified for parameter ‘strtol’
+/usr/include/stdlib.h:190: error: storage class specified for parameter ‘strtoul’
+/usr/include/stdlib.h:195: error: expected declaration specifiers before ‘__extension__’
+/usr/include/stdlib.h:200: error: expected declaration specifiers before ‘__extension__’
+/usr/include/stdlib.h:209: error: expected declaration specifiers before ‘__extension__’
+/usr/include/stdlib.h:214: error: expected declaration specifiers before ‘__extension__’
+/usr/include/stdlib.h:311: error: storage class specified for parameter ‘l64a’
+/usr/include/stdlib.h:315: error: storage class specified for parameter ‘a64l’
+In file included from /usr/include/sys/types.h:30,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/bits/types.h:31: error: storage class specified for parameter ‘__u_char’
+/usr/include/bits/types.h:32: error: storage class specified for parameter ‘__u_short’
+/usr/include/bits/types.h:33: error: storage class specified for parameter ‘__u_int’
+/usr/include/bits/types.h:34: error: storage class specified for parameter ‘__u_long’
+/usr/include/bits/types.h:37: error: storage class specified for parameter ‘__int8_t’
+/usr/include/bits/types.h:38: error: storage class specified for parameter ‘__uint8_t’
+/usr/include/bits/types.h:39: error: storage class specified for parameter ‘__int16_t’
+/usr/include/bits/types.h:40: error: storage class specified for parameter ‘__uint16_t’
+/usr/include/bits/types.h:41: error: storage class specified for parameter ‘__int32_t’
+/usr/include/bits/types.h:42: error: storage class specified for parameter ‘__uint32_t’
+/usr/include/bits/types.h:47: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:48: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:56: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:57: error: expected declaration specifiers before ‘__extension__’
+In file included from /usr/include/sys/types.h:30,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/bits/types.h:134: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:135: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:136: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:137: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:138: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:139: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:140: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:141: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:142: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:143: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:144: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:144: error: expected declaration specifiers before ‘__fsid_t’
+/usr/include/bits/types.h:145: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:146: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:147: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:148: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:149: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:150: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:151: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:153: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:154: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:155: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:158: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:161: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:164: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:169: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:170: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:173: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:174: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:177: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:178: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:180: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:184: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__loff_t’
+/usr/include/bits/types.h:185: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+/usr/include/bits/types.h:186: error: storage class specified for parameter ‘__caddr_t’
+/usr/include/bits/types.h:189: error: expected declaration specifiers before ‘__extension__’
+/usr/include/bits/types.h:192: error: expected declaration specifiers before ‘__extension__’
+In file included from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/sys/types.h:34: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_char’
+/usr/include/sys/types.h:35: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_short’
+/usr/include/sys/types.h:36: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_int’
+/usr/include/sys/types.h:37: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_long’
+/usr/include/sys/types.h:38: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘quad_t’
+/usr/include/sys/types.h:39: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_quad_t’
+/usr/include/sys/types.h:40: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fsid_t’
+/usr/include/sys/types.h:45: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘loff_t’
+/usr/include/sys/types.h:49: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ino_t’
+/usr/include/sys/types.h:61: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘dev_t’
+/usr/include/sys/types.h:66: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘gid_t’
+/usr/include/sys/types.h:71: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘mode_t’
+/usr/include/sys/types.h:76: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘nlink_t’
+/usr/include/sys/types.h:81: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘uid_t’
+/usr/include/sys/types.h:87: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘off_t’
+/usr/include/sys/types.h:99: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pid_t’
+/usr/include/sys/types.h:105: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘id_t’
+/usr/include/sys/types.h:110: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ssize_t’
+/usr/include/sys/types.h:116: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘daddr_t’
+/usr/include/sys/types.h:117: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘caddr_t’
+/usr/include/sys/types.h:123: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘key_t’
+In file included from /usr/include/sys/types.h:133,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/time.h:60: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘clock_t’
+/usr/include/time.h:76: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘time_t’
+/usr/include/time.h:92: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘clockid_t’
+/usr/include/time.h:104: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘timer_t’
+In file included from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/sys/types.h:151: error: storage class specified for parameter ‘ulong’
+/usr/include/sys/types.h:152: error: storage class specified for parameter ‘ushort’
+/usr/include/sys/types.h:153: error: storage class specified for parameter ‘uint’
+/usr/include/sys/types.h:195: error: storage class specified for parameter ‘int8_t’
+/usr/include/sys/types.h:196: error: storage class specified for parameter ‘int16_t’
+/usr/include/sys/types.h:197: error: storage class specified for parameter ‘int32_t’
+/usr/include/sys/types.h:198: error: storage class specified for parameter ‘int64_t’
+/usr/include/sys/types.h:201: error: storage class specified for parameter ‘u_int8_t’
+/usr/include/sys/types.h:202: error: storage class specified for parameter ‘u_int16_t’
+/usr/include/sys/types.h:203: error: storage class specified for parameter ‘u_int32_t’
+/usr/include/sys/types.h:204: error: storage class specified for parameter ‘u_int64_t’
+/usr/include/sys/types.h:206: error: storage class specified for parameter ‘register_t’
+In file included from /usr/include/sys/select.h:34,
+                 from /usr/include/sys/types.h:220,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/bits/sigset.h:24: error: storage class specified for parameter ‘__sig_atomic_t’
+/usr/include/bits/sigset.h:32: error: storage class specified for parameter ‘__sigset_t’
+In file included from /usr/include/sys/types.h:220,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/sys/select.h:38: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘sigset_t’
+In file included from /usr/include/sys/select.h:44,
+                 from /usr/include/sys/types.h:220,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/time.h:122: error: expected specifier-qualifier-list before ‘__time_t’
+In file included from /usr/include/sys/select.h:46,
+                 from /usr/include/sys/types.h:220,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/bits/time.h:77: error: expected specifier-qualifier-list before ‘__time_t’
+In file included from /usr/include/sys/types.h:220,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/sys/select.h:49: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘suseconds_t’
+/usr/include/sys/select.h:55: error: storage class specified for parameter ‘__fd_mask’
+/usr/include/sys/select.h:75: error: expected specifier-qualifier-list before ‘__fd_mask’
+/usr/include/sys/select.h:78: error: storage class specified for parameter ‘fd_set’
+/usr/include/sys/select.h:85: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fd_mask’
+/usr/include/sys/select.h:109: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+/usr/include/sys/select.h:110: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+/usr/include/sys/select.h:111: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+/usr/include/sys/select.h:112: error: storage class specified for parameter ‘select’
+/usr/include/sys/select.h:121: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+/usr/include/sys/select.h:122: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+/usr/include/sys/select.h:123: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+/usr/include/sys/select.h:125: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+In file included from /usr/include/sys/types.h:223,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/sys/sysmacros.h:30: error: expected declaration specifiers before ‘__extension__’
+/usr/include/sys/sysmacros.h:33: error: expected declaration specifiers before ‘__extension__’
+/usr/include/sys/sysmacros.h:36: error: expected declaration specifiers before ‘__extension__’
+In file included from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/sys/types.h:229: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘blksize_t’
+/usr/include/sys/types.h:236: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘blkcnt_t’
+/usr/include/sys/types.h:240: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fsblkcnt_t’
+/usr/include/sys/types.h:244: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fsfilcnt_t’
+In file included from /usr/include/sys/types.h:271,
+                 from /usr/include/stdlib.h:320,
+                 from Set.c:2:
+/usr/include/bits/pthreadtypes.h:50: error: storage class specified for parameter ‘pthread_t’
+/usr/include/bits/pthreadtypes.h:57: error: storage class specified for parameter ‘pthread_attr_t’
+/usr/include/bits/pthreadtypes.h:70: error: storage class specified for parameter ‘__pthread_slist_t’
+/usr/include/bits/pthreadtypes.h:98: error: expected specifier-qualifier-list before ‘__pthread_slist_t’
+/usr/include/bits/pthreadtypes.h:104: error: storage class specified for parameter ‘pthread_mutex_t’
+/usr/include/bits/pthreadtypes.h:110: error: storage class specified for parameter ‘pthread_mutexattr_t’
+/usr/include/bits/pthreadtypes.h:130: error: storage class specified for parameter ‘pthread_cond_t’
+/usr/include/bits/pthreadtypes.h:136: error: storage class specified for parameter ‘pthread_condattr_t’
+/usr/include/bits/pthreadtypes.h:140: error: storage class specified for parameter ‘pthread_key_t’
+/usr/include/bits/pthreadtypes.h:144: error: storage class specified for parameter ‘pthread_once_t’
+/usr/include/bits/pthreadtypes.h:189: error: storage class specified for parameter ‘pthread_rwlock_t’
+/usr/include/bits/pthreadtypes.h:195: error: storage class specified for parameter ‘pthread_rwlockattr_t’
+/usr/include/bits/pthreadtypes.h:201: error: storage class specified for parameter ‘pthread_spinlock_t’
+/usr/include/bits/pthreadtypes.h:210: error: storage class specified for parameter ‘pthread_barrier_t’
+/usr/include/bits/pthreadtypes.h:216: error: storage class specified for parameter ‘pthread_barrierattr_t’
+In file included from Set.c:2:
+/usr/include/stdlib.h:327: error: storage class specified for parameter ‘random’
+/usr/include/stdlib.h:330: error: storage class specified for parameter ‘srandom’
+/usr/include/stdlib.h:337: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:337: error: storage class specified for parameter ‘initstate’
+/usr/include/stdlib.h:341: error: storage class specified for parameter ‘setstate’
+/usr/include/stdlib.h:351: error: expected specifier-qualifier-list before ‘int32_t’
+/usr/include/stdlib.h:361: error: expected declaration specifiers or ‘...’ before ‘int32_t’
+/usr/include/stdlib.h:361: error: storage class specified for parameter ‘random_r’
+/usr/include/stdlib.h:361: error: nonnull argument with out-of-range operand number (argument 1, operand 2)
+/usr/include/stdlib.h:364: error: storage class specified for parameter ‘srandom_r’
+/usr/include/stdlib.h:367: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:369: error: storage class specified for parameter ‘initstate_r’
+/usr/include/stdlib.h:369: error: nonnull argument with out-of-range operand number (argument 1, operand 4)
+/usr/include/stdlib.h:373: error: storage class specified for parameter ‘setstate_r’
+/usr/include/stdlib.h:380: error: storage class specified for parameter ‘rand’
+/usr/include/stdlib.h:382: error: storage class specified for parameter ‘srand’
+/usr/include/stdlib.h:387: error: storage class specified for parameter ‘rand_r’
+/usr/include/stdlib.h:395: error: storage class specified for parameter ‘drand48’
+/usr/include/stdlib.h:396: error: storage class specified for parameter ‘erand48’
+/usr/include/stdlib.h:399: error: storage class specified for parameter ‘lrand48’
+/usr/include/stdlib.h:401: error: storage class specified for parameter ‘nrand48’
+/usr/include/stdlib.h:404: error: storage class specified for parameter ‘mrand48’
+/usr/include/stdlib.h:406: error: storage class specified for parameter ‘jrand48’
+/usr/include/stdlib.h:409: error: storage class specified for parameter ‘srand48’
+/usr/include/stdlib.h:411: error: storage class specified for parameter ‘seed48’
+/usr/include/stdlib.h:412: error: storage class specified for parameter ‘lcong48’
+/usr/include/stdlib.h:429: error: storage class specified for parameter ‘drand48_r’
+/usr/include/stdlib.h:432: error: storage class specified for parameter ‘erand48_r’
+/usr/include/stdlib.h:437: error: storage class specified for parameter ‘lrand48_r’
+/usr/include/stdlib.h:441: error: storage class specified for parameter ‘nrand48_r’
+/usr/include/stdlib.h:446: error: storage class specified for parameter ‘mrand48_r’
+/usr/include/stdlib.h:450: error: storage class specified for parameter ‘jrand48_r’
+/usr/include/stdlib.h:454: error: storage class specified for parameter ‘srand48_r’
+/usr/include/stdlib.h:457: error: storage class specified for parameter ‘seed48_r’
+/usr/include/stdlib.h:461: error: storage class specified for parameter ‘lcong48_r’
+/usr/include/stdlib.h:471: error: expected ‘)’ before ‘__size’
+/usr/include/stdlib.h:473: error: expected ‘)’ before ‘__nmemb’
+/usr/include/stdlib.h:485: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:486: error: storage class specified for parameter ‘realloc’
+/usr/include/stdlib.h:488: error: storage class specified for parameter ‘free’
+/usr/include/stdlib.h:493: error: storage class specified for parameter ‘cfree’
+In file included from /usr/include/stdlib.h:497,
+                 from Set.c:2:
+/usr/include/alloca.h:33: error: expected ‘)’ before ‘__size’
+In file included from Set.c:2:
+/usr/include/stdlib.h:503: error: expected ‘)’ before ‘__size’
+/usr/include/stdlib.h:508: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:508: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:509: error: storage class specified for parameter ‘posix_memalign’
+/usr/include/stdlib.h:514: error: storage class specified for parameter ‘abort’
+/usr/include/stdlib.h:518: error: storage class specified for parameter ‘atexit’
+/usr/include/stdlib.h:537: error: storage class specified for parameter ‘on_exit’
+/usr/include/stdlib.h:544: error: storage class specified for parameter ‘exit’
+/usr/include/stdlib.h:560: error: storage class specified for parameter ‘_Exit’
+/usr/include/stdlib.h:567: error: storage class specified for parameter ‘getenv’
+/usr/include/stdlib.h:573: error: storage class specified for parameter ‘__secure_getenv’
+/usr/include/stdlib.h:579: error: storage class specified for parameter ‘putenv’
+/usr/include/stdlib.h:586: error: storage class specified for parameter ‘setenv’
+/usr/include/stdlib.h:589: error: storage class specified for parameter ‘unsetenv’
+/usr/include/stdlib.h:596: error: storage class specified for parameter ‘clearenv’
+/usr/include/stdlib.h:606: error: storage class specified for parameter ‘mktemp’
+/usr/include/stdlib.h:620: error: storage class specified for parameter ‘mkstemp’
+/usr/include/stdlib.h:642: error: storage class specified for parameter ‘mkstemps’
+/usr/include/stdlib.h:663: error: storage class specified for parameter ‘mkdtemp’
+/usr/include/stdlib.h:717: error: storage class specified for parameter ‘system’
+/usr/include/stdlib.h:735: error: storage class specified for parameter ‘realpath’
+/usr/include/stdlib.h:742: error: storage class specified for parameter ‘__compar_fn_t’
+/usr/include/stdlib.h:756: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:756: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:756: error: expected declaration specifiers or ‘...’ before ‘__compar_fn_t’
+/usr/include/stdlib.h:757: error: storage class specified for parameter ‘bsearch’
+/usr/include/stdlib.h:757: error: nonnull argument with out-of-range operand number (argument 1, operand 5)
+/usr/include/stdlib.h:761: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:761: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:762: error: expected declaration specifiers or ‘...’ before ‘__compar_fn_t’
+/usr/include/stdlib.h:762: error: storage class specified for parameter ‘qsort’
+/usr/include/stdlib.h:762: error: nonnull argument with out-of-range operand number (argument 1, operand 4)
+/usr/include/stdlib.h:771: error: storage class specified for parameter ‘abs’
+/usr/include/stdlib.h:772: error: storage class specified for parameter ‘labs’
+/usr/include/stdlib.h:776: error: expected declaration specifiers before ‘__extension__’
+/usr/include/stdlib.h:785: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘div’
+/usr/include/stdlib.h:787: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ldiv’
+/usr/include/stdlib.h:793: error: expected declaration specifiers before ‘__extension__’
+/usr/include/stdlib.h:809: error: storage class specified for parameter ‘ecvt’
+/usr/include/stdlib.h:815: error: storage class specified for parameter ‘fcvt’
+/usr/include/stdlib.h:821: error: storage class specified for parameter ‘gcvt’
+/usr/include/stdlib.h:828: error: storage class specified for parameter ‘qecvt’
+/usr/include/stdlib.h:831: error: storage class specified for parameter ‘qfcvt’
+/usr/include/stdlib.h:833: error: storage class specified for parameter ‘qgcvt’
+/usr/include/stdlib.h:840: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:840: error: storage class specified for parameter ‘ecvt_r’
+/usr/include/stdlib.h:843: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:843: error: storage class specified for parameter ‘fcvt_r’
+/usr/include/stdlib.h:847: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:848: error: storage class specified for parameter ‘qecvt_r’
+/usr/include/stdlib.h:851: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:852: error: storage class specified for parameter ‘qfcvt_r’
+/usr/include/stdlib.h:860: error: expected declaration specifiers or ‘...’ before ‘size_t’
+/usr/include/stdlib.h:860: error: storage class specified for parameter ‘mblen’
+/usr/include/stdlib.h:863: error: expected ‘)’ before ‘*’ token
+/usr/include/stdlib.h:867: error: expected declaration specifiers or ‘...’ before ‘wchar_t’
+/usr/include/stdlib.h:867: error: storage class specified for parameter ‘wctomb’
+/usr/include/stdlib.h:871: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘mbstowcs’
+/usr/include/stdlib.h:874: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘wcstombs’
+/usr/include/stdlib.h:885: error: storage class specified for parameter ‘rpmatch’
+/usr/include/stdlib.h:899: error: storage class specified for parameter ‘getsubopt’
+/usr/include/stdlib.h:949: error: storage class specified for parameter ‘getloadavg’
+Set.c:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+Set.c:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+Set.c:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+Set.c:29: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+Set.h:15: error: old-style parameter declarations in prototyped function definition
+Set.c:31: error: expected ‘{’ at end of input
+make: *** [Set.o] Ошибка 1

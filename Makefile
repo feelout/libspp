@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-fPIC -g
-OBJECTS := Grammar.o Util.o
+OBJECTS := Grammar.o Util.o rbtree.o Set.o
 
 libspp.so: $(OBJECTS)
 	$(CC) -shared -Wl,-soname,libspp.so.1 \

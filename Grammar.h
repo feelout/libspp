@@ -1,3 +1,5 @@
+#ifndef GRAMMAR_H
+#define GRAMMAR_H
 
 #define MAX_SYMBOLS 256
 #define MAX_RHS_SYMBOLS 4
@@ -49,3 +51,5 @@ int addSymbolToTable(Symbol *sym, SymbolTable *table);
 /* Splits @param string into tokens */
 Symbol* tokenizeString(char *string);
 Production* parseProductionRule(char *string, SymbolTable *table);
+
+#endif //GRAMMAR_H

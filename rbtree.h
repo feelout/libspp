@@ -1,5 +1,8 @@
 /* Red-black tree realisation */
 
+#ifndef RBTREE_H
+#define RBTREE_H
+
 #define COLOR_RED	1
 #define COLOR_BLACK	2
 
@@ -31,3 +34,5 @@ TreeNode* removeNode(TreeNode *root, void *key);
 int isARBTree(TreeNode *root);
 
 void dumpTree(TreeNode *tree, int indent, void(*writer)(void*,void*,int));
+
+#endif //RBTREE_H
