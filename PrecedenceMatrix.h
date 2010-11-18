@@ -1,3 +1,6 @@
+#ifndef PRECEDENCE_MATRIX_H
+#define PRECEDENCE_MATRIX_H
+
 #include "Grammar.h"
 
 #define PR_EMPTY	0
@@ -8,5 +11,9 @@
 typedef struct 
 {
 	int dimension;
-	int *matrix;
+	int **matrix;
 } PrecedenceMatrix;
+
+PrecedenceMatrix* createPrecedenceMatrix(SymbolTable *stable, ProductionList *plist);
+
+#endif//PRECEDENCE_MATRIX_H

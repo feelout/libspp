@@ -30,13 +30,13 @@ Symbol* tokenizeString(char *string)
 
 int getSymbolTableID(Symbol *sym, SymbolTable *table)
 {
-	printf("Searching for the symbol %s in table\n", *sym);
-	printf("Total symbols : %d\n", table->count);
+	//printf("Searching for the symbol %s in table\n", *sym);
+	//printf("Total symbols : %d\n", table->count);
 
 	int i;
 	for(i=0; i < table->count; ++i)
 	{
-		printf("table->symbols[%d] = %s\n", i, table->symbols[i]);
+		//printf("table->symbols[%d] = %s\n", i, table->symbols[i]);
 		if(strcmp(*sym, table->symbols[i]) == 0)
 			return i;
 	}
@@ -46,11 +46,11 @@ int getSymbolTableID(Symbol *sym, SymbolTable *table)
 
 int addSymbolToTable(Symbol *sym, SymbolTable *table)
 {
-	printf("Adding symbol %s to the table\n", *sym);
+	//printf("Adding symbol %s to the table\n", *sym);
 
 	int id = getSymbolTableID(sym, table);
 
-	printf("Id of symbol : %d\n", id);
+	//printf("Id of symbol : %d\n", id);
 
 	if(id != -1)
 		return id;
@@ -62,8 +62,8 @@ int addSymbolToTable(Symbol *sym, SymbolTable *table)
 
 Production* parseProductionRule(char *string, SymbolTable *table)
 {
-	printf("Parsing production %s\n", string);
-	printf("Already %d symbols in the table\n", table->count);
+	//printf("Parsing production %s\n", string);
+	//printf("Already %d symbols in the table\n", table->count);
 
 	char* buffer = (char*)malloc(strlen(string) * sizeof(char));
 
